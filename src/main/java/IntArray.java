@@ -7,7 +7,7 @@ public class IntArray {
     private int _size;
 
     /**
-     * Constructor without parameters, creating an array with an initial size of {@link IntArray#DEFAULT_CAPACITY}.
+     * Constructor without parameters, creating an array with an initial capacity of {@link IntArray#DEFAULT_CAPACITY}.
      */
     public IntArray() {
         this._array = new int[DEFAULT_CAPACITY];
@@ -15,9 +15,9 @@ public class IntArray {
     }
 
     /**
-     * Constructor specifying the initial size of the array.
+     * Constructor specifying the initial capacity of the array.
      *
-     * @param initialSize The initial size of the array
+     * @param initialSize The initial capacity of the array
      * @throws IllegalArgumentException If the specified size is less than or equal to zero
      */
     public IntArray(int initialSize) {
